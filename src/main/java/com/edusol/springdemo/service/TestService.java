@@ -14,6 +14,7 @@ public class TestService
         public List<Customer> getHelloWorld()
         {
             log.info("inside Service");
+            log.info("Gettting Customer data");
             List<Customer> e= new ArrayList<>();
             e.add(new Customer(1,"Umesh","Pune"));///assignment to add multiple user data
             e.add(new Customer(2,"Hello","Pune"));
