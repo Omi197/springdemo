@@ -8,7 +8,7 @@ public class SpringdemoApplication {
 	public static void main(String[] args) {
 
 		SpringApplication.run(SpringdemoApplication.class, args);
-		System.out.println("umesh");
+		System.out.println("Umesh");
 
 	}
 }
